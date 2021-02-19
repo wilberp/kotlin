@@ -5,11 +5,14 @@ class Pessoa {
     var cpf: String = "277"
     //faz com que os campos não seja mutaveis no caminho
     private set
+
+    constructor()
+
+    fun pessoaInfo() = "$nome e $cpf"
 }
 
 fun main(){
     val pessoa = Pessoa()
 //    pessoa.cpf = "1234"
-    println(pessoa.nome)
-    println(pessoa.cpf)
+      println(pessoa.pessoaInfo())
 }
