@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txtContator"
+        android:id="@+id/txtContador"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -35,9 +35,9 @@
         android:layout_height="48dp"
         android:layout_marginTop="30dp"
         android:text="Dados"
-        app:layout_constraintEnd_toEndOf="@+id/txtContator"
-        app:layout_constraintStart_toStartOf="@+id/txtContator"
-        app:layout_constraintTop_toBottomOf="@+id/txtContator" />
+        app:layout_constraintEnd_toEndOf="@+id/txtContador"
+        app:layout_constraintStart_toStartOf="@+id/txtContador"
+        app:layout_constraintTop_toBottomOf="@+id/txtContador" />
 
     <Button
         android:id="@+id/btnMostrar"
