@@ -21,14 +21,13 @@ class MainActivity : AppCompatActivity() {
         notesRefreshButton = findViewById(R.id.client_button_refresh)
         notesRecycler = findViewById(R.id.client_list)
         getContentProvider()
-        notesRefreshButton.setOnClickListener {
-            getContentProvider()
-        }
+
+        notesRefreshButton.setOnClickListener { getContentProvider() }
     }
 
     private fun getContentProvider(){
         try{
-            val url = "br.com.wilber.applicationcontentprovider.provider/notes"
+            val url = "content://br.com.wilber.applicationcontentprovider.provider/notes"
             val data = Uri.parse(url)
             val cursor: Cursor? =
                 contentResolver.query(data,null, null, null, "title")
