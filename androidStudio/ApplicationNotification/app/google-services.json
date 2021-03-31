@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "942314431549",
+    "project_id": "notificationapp-c0df3",
+    "storage_bucket": "notificationapp-c0df3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942314431549:android:d39c96818bcfb82bc1f654",
+        "android_client_info": {
+          "package_name": "br.com.wilber.applicationnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942314431549-majsj6btsgfq173i46avma8978kfnnt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwprTNFrvScDeo7mIR0SpQxJLAdi6GRLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942314431549-majsj6btsgfq173i46avma8978kfnnt1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
