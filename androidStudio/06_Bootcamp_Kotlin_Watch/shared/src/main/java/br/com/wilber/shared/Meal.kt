@@ -1,4 +1,4 @@
-package com.bootcamp.watch
+package br.com.wilber.shared
 
 data class Meal(
     val title: String,

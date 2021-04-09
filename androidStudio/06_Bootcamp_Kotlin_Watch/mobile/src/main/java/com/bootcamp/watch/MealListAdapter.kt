@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import kotlinx.android.synthetic.main.adapter_meal.view.*
 
 class MealListAdapter(
-    private val meals: MutableList<Meal>,
-    private val callback: Callback?
+        private val meals: MutableList<br.com.wilber.shared.Meal>,
+        private val callback: Callback?
 ) : RecyclerView.Adapter<MealListAdapter.MealViewHolder>() {
 
   override fun onBindViewHolder(holder: MealViewHolder, position: Int) {
@@ -29,7 +29,7 @@ class MealListAdapter(
 
   override fun getItemCount() = meals.size
 
-  fun updateMeal(meal: Meal) {
+  fun updateMeal(meal: br.com.wilber.shared.Meal) {
     for ((index, value) in meals.withIndex()) {
       if (value.title == meal.title) {
         meals[index] = meal
@@ -42,6 +42,6 @@ class MealListAdapter(
   inner class MealViewHolder(view: View) : RecyclerView.ViewHolder(view)
 
   interface Callback {
-    fun mealClicked(meal: Meal)
+    fun mealClicked(meal: br.com.wilber.shared.Meal)
   }
 }
